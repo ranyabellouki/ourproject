@@ -186,10 +186,26 @@ p {
 }
 .open-hours-row {
     margin-top: 2em;
-    background: #ffe4c4;
-    border: 2px dashed #ff8c00;
+    margin: 0 auto;
+    background: #FA5858;
+    border: 2px solid red;
+    padding: 3.85em 0;
+    text-align: center;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all; 
+    transition: .5s all;
+    font-size: 1.3em;
+    color: #000;
+    margin-top: 0.5em;
+    font-weight: 700;
+    width: 70%;
 }
-.open-hours-left {
+
+.open-hours-row:hover {
+    background: #000000;
+    color: red;
+}
+/*.open-hours-left {
     padding: 3.85em 0;
     text-align: center;
 	-webkit-transition: .5s all;
@@ -228,7 +244,7 @@ p {
 }
 .open-hours-left:hover {
     background: #ff8c00;
-}
+}*/
 /*-- //welcome --*/
 img.zoom-img{
 	-webkit-transform: scale(1, 1);
@@ -279,7 +295,7 @@ img.zoom-img:hover{
     font-weight: 600;
     margin: 0.5em 0;
     display: inline-block;
-    background: #ff8c00;
+    background: #FA5858;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%; 
     border-radius: 50%;
@@ -298,13 +314,19 @@ img.zoom-img:hover{
     margin-top: 5px;
     letter-spacing: 2px;
 }
+
+.offer{
+    font-weight: bold;
+    color: red;
+}
+
 .slid p {
     color: #fff;
     width: 65%;
     margin: 0 auto;
 }
 .slid:hover h5 {
-    background: #639;
+    background: #000000;
 	-webkit-transform: rotatez(360deg);
 	-moz-transform: rotatez(360deg);
 	-o-transform: rotatez(360deg);
