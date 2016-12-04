@@ -55,7 +55,7 @@ body a:hover{
 /*-- //logo --*/
 /*-- top-nav --*/
 .navbar-default {
-    background: none;
+    background-color: black;
     border: none;
     margin: 0;
     min-height: inherit;
