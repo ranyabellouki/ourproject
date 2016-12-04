@@ -34,7 +34,7 @@ body a:hover{
 /*-- banner --*/
 .banner {
     min-height: 780px;
-    background: url(../images/BB.jpg)no-repeat center 0px;
+    background: url(../images/ribs.jpg)no-repeat center 0px;
     background-size: cover;
     position: relative;
 }
