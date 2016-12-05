@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>BRUTUS BEER</title>
+	<lang="en">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -53,7 +54,7 @@
 	<div class="banner">
 		<div class="header"><!-- header -->
 			<div class="container">		
-				<nav class="navbar navbar-default navbar-fixed-top" bg-color: "black">
+				<nav class="navbar navbar-default navbar-fixed-top" bg-color:"black">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
@@ -69,7 +70,13 @@
 							<li><a href="index.html" class="active">Home</a></li>
 							<li><a href="#about" class="scroll">About</a></li>
 							<li><a href="#specials" class="scroll">Specials</a></li>
-							<li><a href="#menu" class="scroll">Menu</a></li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Menu<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+  									<li><a href="lunchkaartBellaBeer2016.pdf" target="_blank">Lunch</a></li>
+    								<li><a href="PlacematOUWEBEER2016.pdf" target="_blank">Dinner</a></li>
+    								<li><a href="DrankenkaartBrutusBeer2016.pdf" target="_blank">Drinks</a></li>
+    							</ul>
+ 							</li>
 							<li><a href="#team" class="scroll">Reviews</a></li>
 							<li><a href="#gallery" class="scroll">Instagram</a></li>
 							<li><a href="#contact" class="scroll">Contact Us</a></li>
@@ -256,35 +263,35 @@
 	</div>
 	<!-- //slid -->
 	<!-- menu -->
-	<div id="menu" class="menu">  
+		<div id="menu" class="menu">  
 		<div class="container">
 			<div class="agile-title">
-				<h3> Our day menu's</h3>
+				<h3> Our most beloved dishes</h3>
 			</div>
 			<ul class="accordion"> 
 				<li class="slide-01">
 					<div class="menu-left">
 						<img src="web/images/berenburger.jpg" alt=""/>
 						<div class="menu-right">
-							<h4>Burger </h4>
-							<h5>€9,90 </h5>
-							<p>A big and juicy beef burger on a bun with salad, pickles, tomato, union and cheese (optional) </p>
+							<h4>Blandit sed </h4>
+							<h5>$20 </h5>
+							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
 						</div>
 					</div>  
 				</li> 
 				<li class="slide-02">
 					<div class="menu-left">
-						<img src="web/images/zalmmenu.jpg" alt=""/>
+						<img src="web/images/DSC_0006.jpg" alt=""/>
 						<div class="menu-right">
-							<h4>Fillet</h4>
-							<h5>€ </h5>
+							<h4>Faucibus </h4>
+							<h5>$15 </h5>
 							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
 						</div>
 					</div>  
 				</li> 
 				<li class="slide-03">
 					<div class="menu-left">
-						<img src="web/images/varkenshaasenkel.jpg" alt=""/>
+						<img src="web/images/DSC_0024.jpg" alt=""/>
 						<div class="menu-right">
 							<h4>Vulputate </h4>
 							<h5>$50 </h5>
@@ -294,7 +301,7 @@
 				</li> 
 				<li class="slide-04">
 					<div class="menu-left">
-						<img src="web/images/varkenshaasdubbel.jpg" alt=""/>
+						<img src="web/images/kipschnitzel.jpg" alt=""/>
 						<div class="menu-right">
 							<h4>Fusce sed </h4>
 							<h5>$60 </h5>
@@ -304,7 +311,7 @@
 				</li> 
 				<li class="slide-05">
 					<div class="menu-left">
-						<img src="web/images/BB.jpg" alt=""/>
+						<img src="web/images/BERECOOL.jpg" width=150 height=300 alt=""/>
 						<div class="menu-right">
 							<h4>Imperdiet ero</h4>
 							<h5>$36 </h5>
@@ -313,7 +320,10 @@
 					</div>
 				</li> 
 			</ul>
-			<div class="clearfix"> </div>
+			<br>
+			<div id="menupdf">
+				<center><a class="btn btn-default page-scroll" href="lunchkaartBellaBeer2016.pdf" target="_blank">Full Menu</a></center>
+			</div>
 		</div>
 	</div>
 	<!-- //menu -->
