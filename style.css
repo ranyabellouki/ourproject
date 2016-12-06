@@ -26,8 +26,8 @@
 
 .collapse {
 	margin-top: 30px;
-	font-size: 12pt;
-}
+/*	font-size: 12pt;
+*/}
 
 .navbar {
 	background-color: black;
@@ -42,4 +42,3 @@
 	background-color: red;
 	color: white;
 }*/
-
