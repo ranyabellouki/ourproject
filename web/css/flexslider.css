@@ -228,3 +228,7 @@ html[xmlns] .flexslider .slides {
     bottom: -32%;
 }
 }
+
+.intro-bold{
+  font-weight: bold;
+}
