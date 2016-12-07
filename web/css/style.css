@@ -334,6 +334,8 @@ img.zoom-img:hover{
 }
 /*-- //slid --*/
 /*-- menu --*/
+
+
 .menu-left {
     position: relative;
 }
@@ -383,7 +385,9 @@ img.zoom-img:hover{
     width: 100%;
     overflow: hidden;
     list-style: none;
+    margin: 0px auto;
 }
+
 .accordion li{
 	float:left;
 	width:20%;
