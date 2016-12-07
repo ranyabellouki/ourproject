@@ -9,8 +9,8 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="web/css/style.css" type="text/css" rel="stylesheet" media="all">  
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">  
+	<link href="web/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="style.css" type="text/css" rel="stylesheet" media="all">  
 	<link rel="stylesheet" href="web/css/flexslider.css" type="text/css" media="screen" /> 
 	<link rel="stylesheet" href="web/css/swipebox.css">	
 	<!-- //Custom Theme files -->
@@ -25,6 +25,7 @@
 	<link href='//fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+	 <link href="web/freelancer.min.css" rel="stylesheet">
 	<!-- //web-fonts -->
 	<!-- start-smooth-scrolling -->
 	<script type="text/javascript" src="web/js/move-top.js"></script>
@@ -190,8 +191,8 @@
 							</form>
 						</div>
 						<!-- Calendar -->
-						<link rel="stylesheet" href="css/jquery-ui.css" />
-						<script src="js/jquery-ui.js"></script>
+						<link rel="stylesheet" href="web/css/jquery-ui.css" />
+						<script src="web/js/jquery-ui.js"></script>
 						<script>
 								$(function() {
 									$( "#datepicker" ).datepicker();
@@ -266,63 +267,74 @@
 	</div>
 	<!-- //slid -->
 	<!-- menu -->
-		<div id="menu" class="menu">  
+	<div id="menu" class="menu">  
 		<div class="container">
 			<div class="agile-title">
 				<h3>Our most beloved dishes</h3>
 			</div>
-			<ul class="accordion"> 
-				<li class="slide-01">
-					<div class="menu-left">
-						<img src="web/images/berenburger.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Blandit sed </h4>
-							<h5>$20 </h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>  
-				</li> 
-				<li class="slide-02">
-					<div class="menu-left">
-						<img src="web/images/DSC_0006.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Faucibus </h4>
-							<h5>$15 </h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>  
-				</li> 
-				<li class="slide-03">
-					<div class="menu-left">
-						<img src="web/images/DSC_0024.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Vulputate </h4>
-							<h5>$50 </h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>
-				</li> 
-				<li class="slide-04">
-					<div class="menu-left">
-						<img src="web/images/kipschnitzel.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Fusce sed </h4>
-							<h5>$60</h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>
-				</li> 
-				<!-- <li class="slide-05">
-					<div class="menu-left">
-						<img src="web/images/BERECOOL.jpg" width=150 height=300 alt=""/>
-						<div class="menu-right">
-							<h4>Imperdiet ero</h4>
-							<h5>$36 </h5>
-							<p>Fusce sed vulputate dui, non consectetur felis In malesuada accumsan felis, a imperdiet arcu blandit sed ut id faucibus. </p>
-						</div>
-					</div>
-				</li>  -->
-			</ul>
+			 <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p> Burger </p>
+                            </div>
+                        </div>
+                        <img src="web/images/berenburger.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Steak</p>
+                            </div>
+                        </div>
+                        <img src="web/images/biefstuk.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Sate</p>
+                            </div>
+                        </div>
+                        <img src="web/images/sate.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Bitterballen</p>
+                            </div>
+                        </div>
+                        <img src="web/images/bitterballen.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Ribs</p>
+                            </div>
+                        </div>
+                        <img src="web/images/spareribs.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Mixed Grill</p>
+                            </div>
+                        </div>
+                        <img src="web/images/mixedgrill.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+        </div>
+    </section>
 			<br>
 			<div id="menupdf">
 				<center><a class="btn btn-default page-scroll" href="lunchkaartBellaBeer2016.pdf" target="_blank">Full Menu</a></center>
