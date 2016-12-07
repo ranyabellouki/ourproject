@@ -466,7 +466,7 @@ img.zoom-img:hover{
 .team{
     background: url(../images/seats.jpg)no-repeat center 0px;
     background-size: cover;
-    padding: 5em 0;
+/*    padding: 5em 0;*/
     text-align: center;
 }
 /* Seventh Section */
@@ -482,7 +482,7 @@ img.zoom-img:hover{
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
+    -o-transition: all 0.5
     transition: all 0.5s;
     opacity: 1;
     filter: alpha(opacity=100);
