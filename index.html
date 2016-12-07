@@ -5,12 +5,10 @@
 	<lang="en">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="web/css/style.css" type="text/css" rel="stylesheet" media="all">  
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">  
+	<link href="web/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="style.css" type="text/css" rel="stylesheet" media="all">  
 	<link rel="stylesheet" href="web/css/flexslider.css" type="text/css" media="screen" /> 
 	<link rel="stylesheet" href="web/css/swipebox.css">	
 	<!-- //Custom Theme files -->
@@ -18,6 +16,7 @@
 	<!-- font-awesome icons -->
 	<link href="web/css/font-awesome.css" rel="stylesheet"> 
 	<!-- //font-awesome icons -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<!-- js -->
 	<script src="web/js/jquery-2.2.3.min.js"></script> 
 	<!-- //js -->
@@ -25,6 +24,7 @@
 	<link href='//fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+	 <link href="web/freelancer.min.css" rel="stylesheet">
 	<!-- //web-fonts -->
 	<!-- start-smooth-scrolling -->
 	<script type="text/javascript" src="web/js/move-top.js"></script>
@@ -95,24 +95,25 @@
 			<div class="flexslider">
 				<ul class="slides">
 					<li>
-						<h2>ENJOY</h2>
-						<p>At our restaurant we have a table for everybody! If you are looking for a cozy table with a fireplace or a long table for all you friends you came to the right place! You can always count on our friendly staff and great dishes for a small price. </p>
+						<h2>Enjoy</h2>
+						<p>At our restaurant we have a table for everybody! If you are looking for a cozy table with a fireplace or a long table for all you friends you came to the right place! You can always count on our <span class="intro-bold">friendly staff and great dishes</span> for a small price. </p>
 						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
 					</li>
 					<li>
-						<h3>GRILLING</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipi est Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias phasellus mattis tellus .</p>
-						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
+						<h3>Location</h3>
+						<p>Our view is the best view of Rotterdam! If you visit the restaurant you will be positively surprized by the amazing view of the <span class="intro-bold">Erasmus bridge</span> - One of Rotterdam's finest hotspots! - </p>
+						<a href="#contact" class="more scroll">See the map</a>  
 					</li>
 					<li>
-						<h3>RECIPES</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipi est Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias phasellus mattis tellus .</p>
-						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
+						<h3>Group-friendly</h3>
+						<p>Our inside and outside tables are perfect for bigger groups! <span class="intro-bold">Get in touch</span> with us for our deals and prices!</p>
+						<a href="#contact" class="scroll more">Get in Touch</a>  
 					</li>
 				</ul>
 			</div>  
 			<!-- modal -->
 			<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+<!-- 			<iframe src="http://restaurant.couverts.nl/IFrame/Index/1000?tijdsblokstart=1000#lang=en" style="height: 300px; width: 250;" ></iframe> -->
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header"> 
@@ -159,50 +160,59 @@
 										</div>					
 									</div>
 									<div class="span1_of_1">
-										<!-- start_section_room -->
+										start_section_room
 										<label>Time : </label>
 										<div class="section_room">
 											<span class="fa fa-clock-o" aria-hidden="true"></span>
 											<select id="country" onchange="change_country(this.value)" class="frm-field required">
-												<option value="null">Lunch</option>
-												<option value="null">Dinner</option>         
-												<option value="AX">Break Fast</option>
+												<option value="null">17:00</option>
+												<option value="null">17.30</option>  
+												<option value="null">18:00</option>    
+												<option value="null">18:30</option>  
+												<option value="null">19:00</option> 
+												<option value="null">19:30</option>   
+												<option value="null">20:00</option>
+												<option value="null">20:30</option>    
+												<option value="null">21:00</option>  
+												<option value="null">21:30</option>  
 											</select>
 										</div>	
 									</div>
 									<div class="span1_of_1">
 										<label>No.of People : </label>
-										<!-- start_section_room -->
+										start_section_room
 										<div class="section_room">
 											<span class="fa fa-users" aria-hidden="true"></span>
 											<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-												<option value="null">1 People</option>
-												<option value="null">2 People</option>
-												<option value="null">3 People</option>         
-												<option value="AX">4 People</option>
-												<option value="AX">More</option>
+												<option value="null">1</option>
+												<option value="null">2</option>
+												<option value="null">3</option>         
+												<option value="AX">4</option>
+												<option value="AX">5</option>
+												<option value="AX">6</option>
+												<option value="AX">more</option>
 											</select>
 										</div>	
 									</div> 
 									<div class="clearfix"></div>
 								</div> 
-								<input type="submit" value="Book Now" />
+								<input type="submit" value="Book Now" style="background-color: red;" />
 							</form>
 						</div>
-						<!-- Calendar -->
-						<link rel="stylesheet" href="css/jquery-ui.css" />
-						<script src="js/jquery-ui.js"></script>
+					<!-- 	Calendar -->
+						<link rel="stylesheet" href="web/css/jquery-ui.css" />
+						<script src="web/js/jquery-ui.js"></script>
 						<script>
 								$(function() {
 									$( "#datepicker" ).datepicker();
 								});
 						</script>
-						<!-- //Calendar -->  
+					<!-- 	//Calendar   -->
 					</div>
 				</div>
 			</div>
-			<!-- //modal -->  
-			<!-- FlexSlider -->
+		<!-- 	//modal  
+			FlexSlider -->
 			<script defer src="web/js/jquery.flexslider.js"></script>
 			<script type="text/javascript">
 			$(window).load(function() {
@@ -215,7 +225,7 @@
 			</script>
 			<!-- //FlexSlider -->
 		</div> 
-		<!-- //banner-text --> 
+		<!-- //banner-text -->
 	</div>
 	<!-- //banner --> 
 	<!-- welcome --> 
@@ -245,7 +255,7 @@
 					<p>In Rotterdam, at the Boompjes, there is an awesome place called Brutus Beer! With a great view of the Erasmusbridge from inside or outside there is no better place to enjoy your meal! You can park your car just around the corner and you will get a FREE bread with garlic butter if you show us the ticket from the parking garage! </p>
 					<div class="open-hours-row">
 						<!-- <div class="col-md-3 open-hours-left"> -->
-							<h4>OPENING HOURS</h4><br>
+							<h4>Opening hours</h4><br>
 							<h5>mon-fri 16:00-22:00</h5>
 						</div>
 						<div class="clearfix"> </div>
@@ -266,63 +276,74 @@
 	</div>
 	<!-- //slid -->
 	<!-- menu -->
-		<div id="menu" class="menu">  
+	<div id="menu" class="menu">  
 		<div class="container">
 			<div class="agile-title">
 				<h3>Our most beloved dishes</h3>
 			</div>
-			<ul class="accordion"> 
-				<li class="slide-01">
-					<div class="menu-left">
-						<img src="web/images/berenburger.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Blandit sed </h4>
-							<h5>$20 </h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>  
-				</li> 
-				<li class="slide-02">
-					<div class="menu-left">
-						<img src="web/images/DSC_0006.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Faucibus </h4>
-							<h5>$15 </h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>  
-				</li> 
-				<li class="slide-03">
-					<div class="menu-left">
-						<img src="web/images/DSC_0024.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Vulputate </h4>
-							<h5>$50 </h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>
-				</li> 
-				<li class="slide-04">
-					<div class="menu-left">
-						<img src="web/images/kipschnitzel.jpg" alt=""/>
-						<div class="menu-right">
-							<h4>Fusce sed </h4>
-							<h5>$60</h5>
-							<p>In malesuada accumsan felis, a imperdiet arcu blandit sed. Ut id faucibus eros. Fusce sed vulputate dui, non consectetur felis </p>
-						</div>
-					</div>
-				</li> 
-				<!-- <li class="slide-05">
-					<div class="menu-left">
-						<img src="web/images/BERECOOL.jpg" width=150 height=300 alt=""/>
-						<div class="menu-right">
-							<h4>Imperdiet ero</h4>
-							<h5>$36 </h5>
-							<p>Fusce sed vulputate dui, non consectetur felis In malesuada accumsan felis, a imperdiet arcu blandit sed ut id faucibus. </p>
-						</div>
-					</div>
-				</li>  -->
-			</ul>
+			 <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p> Burger €12,50</p>
+                            </div>
+                        </div>
+                        <img src="web/images/berenburger.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Steak €18,50</p>
+                            </div>
+                        </div>
+                        <img src="web/images/biefstuk.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Sate €12,50</p>
+                            </div>
+                        </div>
+                        <img src="web/images/sate.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Bitterballen €10,00</p>
+                            </div>
+                        </div>
+                        <img src="web/images/bitterballen.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Ribs €13,50</p>
+                            </div>
+                        </div>
+                        <img src="web/images/spareribs.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Mixed Grill €19,50</p>
+                            </div>
+                        </div>
+                        <img src="web/images/mixedgrill.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+        </div>
+    </section>
 			<br>
 			<div id="menupdf">
 				<center><a class="btn btn-default page-scroll" href="lunchkaartBellaBeer2016.pdf" target="_blank">Full Menu</a></center>
@@ -335,24 +356,34 @@
 		<div class="container">
 			<div class="agile-title">
 				<h3>Reviews</h3>
+				
 			</div>
 			<div class="banner-text"> 
 			<div class="flexslider">
 				<ul class="slides">
 					<li>
-						<h2>Best rib in town</h2>
+						<h2>Best ribs in town!</h2>
 						<p>Hsin-Yin Huang</p>
-						<a href="https://www.yelp.com/rotterdam" class="more" data-toggle="modal" data-target="#myModal">Yelp</a>  
+						<a href="https://www.yelp.com/rotterdam" class="more">Yelp</a>  
+						<br>
+						<br>
+						<iframe src="http://restaurant.couverts.nl/ReviewWidget/Index/332" frameborder="0" width="182" height="85" scrolling="no"></iframe>
 					</li>
 					<li>
-						<h3>Amazing service, feel like home</h3>
+						<h2>Amazing service, feels like home</h2>
 						<p>Ranya</p>
-						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
+						<a href="https://www.couverts.nl/search?sort=&keuken=&wijk=&prijzen=&overig=&view=&q=brutus+beer&date=" class="more">Couverts</a>  
+						<br>
+						<br>
+						<iframe src="http://restaurant.couverts.nl/ReviewWidget/Index/332" frameborder="0" width="182" height="85" scrolling="no"></iframe>
 					</li>
 					<li>
-						<h3>RECIPES </h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipi est Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias phasellus mattis tellus .</p>
-						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
+						<h2>Good atmospere, nice employees and a beautiful view!</h2>
+						<p>Jan</p>
+						<a href="#" class="more">tripadvisor</a> 
+						<br>
+						<br>
+						<iframe src="http://restaurant.couverts.nl/ReviewWidget/Index/332" frameborder="0" width="182" height="85" scrolling="no"></iframe> 
 					</li>
 				</ul>
 			</div>  
@@ -381,109 +412,6 @@
 			</div>
 			<div id="instafeed" class="row">	
 	</div>
-			
-			<!-- <div class="gallery-agileinfo-row">  
-				<div class="col-md-4 gallery-grids">
-					<div class="hover ehover14">
-						<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g1.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids">
-					<div class="hover ehover14">
-						<a href="images/g2.jpg" class="swipebox" title="Duis maximus tortor diam, ac lobortis justo rutrum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g2.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids">
-					<div class="hover ehover14">
-						<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g3.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids gallery-grids-mdl">
-					<div class="hover ehover14">
-						<a href="images/g4.jpg" class="swipebox" title="Praesent non purus fermentum, eleifend velit non Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. ">
-							<img src="images/g4.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids gallery-grids-mdl">
-					<div class="hover ehover14">
-						<a href="images/g5.jpg" class="swipebox" title="Consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g5.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids gallery-grids-mdl">
-					<div class="hover ehover14">
-						<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g6.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids">
-					<div class="hover ehover14">
-						<a href="images/g3.jpg" class="swipebox" title="Duis maximus tortor diam, ac lobortis justo rutrum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g3.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids">
-					<div class="hover ehover14">
-						<a href="images/g4.jpg" class="swipebox" title="Praesent non purus fermentum, eleifend velit non Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis.">
-							<img src="images/g4.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="col-md-4 gallery-grids">
-					<div class="hover ehover14">
-						<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
-							<img src="images/g1.jpg" alt="" class="img-responsive" />
-							<div class="overlay">
-								<h4>gallery</h4>
-								<div class="info nullbutton button" data-toggle="modal" data-target="#modal14">Show More</div>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="clearfix"> </div> 
-			</div> -->
 		</div>
 	</div>
 	<!-- //gallery -->
