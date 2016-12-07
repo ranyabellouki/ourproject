@@ -101,7 +101,7 @@
 					</li>
 					<li>
 						<h3>Location</h3>
-						<p>Our view is the bets view of Rotterdam! If you visit the restaurant you will be positively surprized by the amazing view of the <span class="intro-bold">Erasmus bridge</span> - One of Rotterdam's finest hotspots! - </p>
+						<p>Our view is the best view of Rotterdam! If you visit the restaurant you will be positively surprized by the amazing view of the <span class="intro-bold">Erasmus bridge</span> - One of Rotterdam's finest hotspots! - </p>
 						<a href="#contact" class="more scroll">See the map</a>  
 					</li>
 					<li>
@@ -113,6 +113,7 @@
 			</div>  
 			<!-- modal -->
 			<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+<!-- 			<iframe src="http://restaurant.couverts.nl/IFrame/Index/1000?tijdsblokstart=1000#lang=en" style="height: 300px; width: 250;" ></iframe> -->
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header"> 
@@ -159,37 +160,46 @@
 										</div>					
 									</div>
 									<div class="span1_of_1">
-										<!-- start_section_room -->
+										start_section_room
 										<label>Time : </label>
 										<div class="section_room">
 											<span class="fa fa-clock-o" aria-hidden="true"></span>
 											<select id="country" onchange="change_country(this.value)" class="frm-field required">
-												<option value="null">Lunch</option>
-												<option value="null">Dinner</option>         
-												<option value="AX">Break Fast</option>
+												<option value="null">17:00</option>
+												<option value="null">17.30</option>  
+												<option value="null">18:00</option>    
+												<option value="null">18:30</option>  
+												<option value="null">19:00</option> 
+												<option value="null">19:30</option>   
+												<option value="null">20:00</option>
+												<option value="null">20:30</option>    
+												<option value="null">21:00</option>  
+												<option value="null">21:30</option>  
 											</select>
 										</div>	
 									</div>
 									<div class="span1_of_1">
 										<label>No.of People : </label>
-										<!-- start_section_room -->
+										start_section_room
 										<div class="section_room">
 											<span class="fa fa-users" aria-hidden="true"></span>
 											<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-												<option value="null">1 People</option>
-												<option value="null">2 People</option>
-												<option value="null">3 People</option>         
-												<option value="AX">4 People</option>
-												<option value="AX">More</option>
+												<option value="null">1</option>
+												<option value="null">2</option>
+												<option value="null">3</option>         
+												<option value="AX">4</option>
+												<option value="AX">5</option>
+												<option value="AX">6</option>
+												<option value="AX">more</option>
 											</select>
 										</div>	
 									</div> 
 									<div class="clearfix"></div>
 								</div> 
-								<input type="submit" value="Book Now" />
+								<input type="submit" value="Book Now" style="background-color: red;" />
 							</form>
 						</div>
-						<!-- Calendar -->
+					<!-- 	Calendar -->
 						<link rel="stylesheet" href="web/css/jquery-ui.css" />
 						<script src="web/js/jquery-ui.js"></script>
 						<script>
@@ -197,12 +207,12 @@
 									$( "#datepicker" ).datepicker();
 								});
 						</script>
-						<!-- //Calendar -->  
+					<!-- 	//Calendar   -->
 					</div>
 				</div>
 			</div>
-			<!-- //modal -->  
-			<!-- FlexSlider -->
+		<!-- 	//modal  
+			FlexSlider -->
 			<script defer src="web/js/jquery.flexslider.js"></script>
 			<script type="text/javascript">
 			$(window).load(function() {
@@ -215,7 +225,7 @@
 			</script>
 			<!-- //FlexSlider -->
 		</div> 
-		<!-- //banner-text --> 
+		<!-- //banner-text -->
 	</div>
 	<!-- //banner --> 
 	<!-- welcome --> 
@@ -245,7 +255,7 @@
 					<p>In Rotterdam, at the Boompjes, there is an awesome place called Brutus Beer! With a great view of the Erasmusbridge from inside or outside there is no better place to enjoy your meal! You can park your car just around the corner and you will get a FREE bread with garlic butter if you show us the ticket from the parking garage! </p>
 					<div class="open-hours-row">
 						<!-- <div class="col-md-3 open-hours-left"> -->
-							<h4>OPENING HOURS</h4><br>
+							<h4>Opening hours</h4><br>
 							<h5>mon-fri 16:00-22:00</h5>
 						</div>
 						<div class="clearfix"> </div>
@@ -276,7 +286,7 @@
                     <a href="#" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p> Burger </p>
+                                <p> Burger €12,50</p>
                             </div>
                         </div>
                         <img src="web/images/berenburger.jpg" class="img-responsive" alt="">
@@ -286,7 +296,7 @@
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Steak</p>
+                                <p>Steak €18,50</p>
                             </div>
                         </div>
                         <img src="web/images/biefstuk.jpg" class="img-responsive" alt="">
@@ -296,7 +306,7 @@
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Sate</p>
+                                <p>Sate €12,50</p>
                             </div>
                         </div>
                         <img src="web/images/sate.jpg" class="img-responsive" alt="">
@@ -306,7 +316,7 @@
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Bitterballen</p>
+                                <p>Bitterballen €10,00</p>
                             </div>
                         </div>
                         <img src="web/images/bitterballen.jpg" class="img-responsive" alt="">
@@ -316,7 +326,7 @@
                     <a class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Ribs</p>
+                                <p>Ribs €13,50</p>
                             </div>
                         </div>
                         <img src="web/images/spareribs.jpg" class="img-responsive" alt="">
@@ -326,7 +336,7 @@
                     <a class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Mixed Grill</p>
+                                <p>Mixed Grill €19,50</p>
                             </div>
                         </div>
                         <img src="web/images/mixedgrill.jpg" class="img-responsive" alt="">
@@ -346,24 +356,34 @@
 		<div class="container">
 			<div class="agile-title">
 				<h3>Reviews</h3>
+				
 			</div>
 			<div class="banner-text"> 
 			<div class="flexslider">
 				<ul class="slides">
 					<li>
-						<h2>Best rib in town</h2>
+						<h2>Best ribs in town</h2>
 						<p>Hsin-Yin Huang</p>
-						<a href="https://www.yelp.com/rotterdam" class="more" data-toggle="modal" data-target="#myModal">Yelp</a>  
+						<a href="https://www.yelp.com/rotterdam" class="more">Yelp</a>  
+						<br>
+						<br>
+						<iframe src="http://restaurant.couverts.nl/ReviewWidget/Index/332" frameborder="0" width="182" height="85" scrolling="no"></iframe>
 					</li>
 					<li>
 						<h3>Amazing service, feel like home</h3>
 						<p>Ranya</p>
-						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
+						<a href="https://www.couverts.nl/search?sort=&keuken=&wijk=&prijzen=&overig=&view=&q=brutus+beer&date=" class="more">Couverts</a>  
+						<br>
+						<br>
+						<iframe src="http://restaurant.couverts.nl/ReviewWidget/Index/332" frameborder="0" width="182" height="85" scrolling="no"></iframe>
 					</li>
 					<li>
-						<h3>RECIPES </h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipi est Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias phasellus mattis tellus .</p>
-						<a href="#" class="more" data-toggle="modal" data-target="#myModal">Book a Table</a>  
+						<h3>Good atmospere, nice employees and a beautiful view!</h3>
+						<p>Jan</p>
+						<a href="#" class="more">tripadvisor</a> 
+						<br>
+						<br>
+						<iframe src="http://restaurant.couverts.nl/ReviewWidget/Index/332" frameborder="0" width="182" height="85" scrolling="no"></iframe> 
 					</li>
 				</ul>
 			</div>  
