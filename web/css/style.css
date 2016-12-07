@@ -130,8 +130,8 @@ ul.nav.navbar-nav.navbar-right {
 	text-decoration:none;
 } 
 .banner-text a.more:hover {
-    border-color: #639;
-    background: #639;
+    border-color: white;
+    background: red;
 }
 /*-- //banner --*/
 /*-- welcome --*/
